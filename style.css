@@ -5,8 +5,8 @@ body{
     color: orange;
 }
 
-section{
-    display: flex;
+.flexible{
+    display: flex; margin-bottom: 150px;
 }
 
 .content{
@@ -45,4 +45,19 @@ section{
 
 .bgmy{
     background-image: url(dream-bg.png);
+}
+
+.background{
+    background-image: url(dream-bg.png); background-repeat: no-repeat; background-position: right;
+}
+
+full-stack{
+    font-size: 18px;
+}
+
+.shadow{ margin: 5%;
+    box-shadow: gray 10px 10px 40px; padding: 2%; border-radius: 15px; border-left: solid 15px tomato;
+
+.exp{
+    text-align: center;
 }
